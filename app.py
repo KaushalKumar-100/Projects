@@ -57,7 +57,7 @@ movies = pd.DataFrame(movies_dict)
 
 
 # Streamlit UI
-st.title("🎬 Movie Recommender System 100")
+st.title("🎬 Movie Recommender System ")
 
 selected_movie_name = st.selectbox(
     "Select a Movie",
