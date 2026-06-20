@@ -7,7 +7,7 @@ import requests
 API_KEY=st.secrets["TMDB_API_KEY"]
 
 def fetch_poster(movie_id):
-    url=f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=API_KEY'
+    url=f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={API_KEY}'
     try:
         response=requests.get(url,timeout=10)
         response.raise_for_status()
