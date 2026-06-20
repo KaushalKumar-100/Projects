@@ -8,6 +8,12 @@ A simple Machine Learning based Movie Recommender System that suggests similar m
 
 ✨ Features
 Recommend 5 similar movies instantly
+
+
 Display movie posters using the TMDB API
+
+
 Simple and interactive user interface
+
+
 Fast recommendation system with optimized data storage
